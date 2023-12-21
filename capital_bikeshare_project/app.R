@@ -15,7 +15,7 @@ library(shinydashboard)
 library(rsconnect)
 
 # Load clean data ###################################################
-#setwd("/Users/natebender/Desktop/repo/r_learning_overall/capital_bikeshare_app/capital_bikeshare_project")
+setwd("/Users/natebender/Desktop/repo/r_learning_overall/capital_bikeshare_app/capital_bikeshare_project")
 #bike_clean <- read.csv(here("test_bike_app/data_clean_copy", "bike_clean.csv"))
 bike_clean <- read.csv("data_clean/bike_clean.csv")
 
